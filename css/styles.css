@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    font-family:'Montserrat', sans-serif;
+}
+
+header{ 
+    padding: 0 100px;
+    color: white;
+    background-image: url(/img/background.png);
+    overflow: auto;
+    border-top: 6px solid #2ecc71;
+    height: 400px;
+}
+
+header > div{
+    margin: 100px 0;
+}
+
+h1{
+font-size: 3.2rem;;
+font-weight: 300;
+font-family: 'Pacifico', cursive;
+}
+
+@media(min-width:992px){
+    header{
+    padding: 0 16.5rem;
+    color: white;
+    background-image: url(/img/background.png);
+    overflow: auto;
+    border-top: 6px solid #2ecc71;
+    height: 400px;
+   }
+}
+
+/* .icone, header{
+    padding: auto;
+    font: white */
+ 
+.icone {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icone > div {
+    width: 25vw;
+}
+
+.icone > div > div{
+    background-image: url(../img/icone1.png);
+    background-color: green;
+    height: 50px;
+    background-repeat: no-repeat;
+    width: 50px;
+}
+
+.icone img {
+    background-color: green;
+    margin-left: 10rem;
+    border-radius: 60%;
+    display: flex;
+}
+
+h2{
+    white-space: normal;
+}
